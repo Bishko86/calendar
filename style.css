@@ -1,0 +1,45 @@
+
+#back ,
+#forward{
+	display:flex;
+	align-items: center;
+}
+
+#table {
+	display: inline-block;
+	margin:0;
+}
+.calendar {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.date,
+.cal{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin:0 auto 0 auto;
+}
+
+#nameMonth,
+#nameYear{
+	font-size: 30px;
+}
+.silver{
+	color: silver;
+}
+i.fa {
+	font-size: 36px;
+	cursor: pointer;
+	color: silver;
+}
+#calendar{
+	margin:10px 10px 0 10px;
+}
+tr{
+	margin-bottom: 10px;
+}
+td {
+	padding: 5px;
+}
