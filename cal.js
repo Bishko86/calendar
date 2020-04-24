@@ -63,7 +63,7 @@ function initVal() {
      		calenDar.children[6].remove();
      	}
      else {
-     	if (dayOfWeek == 0addweek>30 || dayOfWeek == 6&&addweek>30) {
+     	if (dayOfWeek == 0&&addweek>30 || dayOfWeek == 6&&addweek>30) {
      	addWeek();
       }
     }
